@@ -1,0 +1,70 @@
+
+    <div class="container" ng-controller="IndexController">
+        <div class="row row-content">
+            <div class="col s12 m3">
+                <p style="padding:20px;"></p>
+                <h3 align=left>Our Lipsmacking Culinary Creations</h3>
+           	</div>	
+           		<div class="col s12 m8 offset-m1 media">
+            		<div materialboxed class="card-panel grey lighten-5 z-depth-1">
+            			<img class="materialboxed" width="150" src="images/uthapizza.png" ng-src={{dish.image}} alt="">
+            		
+						<div class="media-body">
+							<h2 class="media-heading">{{dish.name}}
+							<span class="red lighten-2 chip">{{dish.label}}</span>
+							<span class="red lighten-2 chip">{{dish.price | currency}}</span></h2>
+							<br><p>{{dish.description}}</p>
+						</div>
+           			</div>
+            	</div>
+            
+            </div>
+     	<div class="row row-content">
+            <div class="col s12 m3">
+                <p style="padding:20px;"></p>
+                <h3 align=left>This Month's Promotions</h3>
+            </div>
+            <div class="col s12 offset-m1 m8">
+            	<div ng-if="!showDish">
+            		{{message}}
+            	</div>
+<!--            	<div class="media" ng-if="showDish">-->
+            		<div class="media">
+            		<div materialboxed class="card-panel grey lighten-5 z-depth1">
+            			<img class="materialboxed" width="150" ng-src={{featured.image}} alt="">
+            				
+						<div class="media-body">
+							<h2 class="media-heading">{{featured.name}}
+							<span class="red lighten-2 chip">{{featured.label}}</span>
+							<span class="red lighten-2 chip">{{featured.price | currency}}</span></h2>
+							<br><p>{{featured.description}}</p>
+						</div>
+            		</div>
+            	</div>
+				
+            </div>
+        </div>
+
+        <div class="row row-content">
+            <div class="col-xs-12 col-sm-3 col-sm-push-9">
+                <p style="padding:20px;"></p>
+                <h3 align=center>Meet our Culinary Specialists</h3>
+            </div>
+            <div class="col-xs-12 col-sm-9 col-sm-pull-3">
+           		<div class="media">
+           		
+						<div materialboxed class="media-left media-middle">
+							<img class="materialboxed" width="150" src="images/james.jpg" ng-src={{executiveChef.image}} alt="image">
+						</div>
+						<div class="media-body">
+							<h3 class="media-heading">{{executiveChef.name}}</h3>
+             				<p>{{executiveChef.designation}}, {{executiveChef.abbr}}</p>
+              				<p>{{executiveChef.description}}</p
+						</div>	
+					</div>
+            </div>
+        </div>       
+     </div>
+
+
+        

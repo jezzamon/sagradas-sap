@@ -1,0 +1,270 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'c:\\Program Files (x86)\\nodejs\\node.exe',
+1 verbose cli   'c:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   'protractor@2' ]
+2 info using npm@2.11.3
+3 info using node@v0.12.7
+4 verbose install initial load of C:\Users\Jerry\AppData\Roaming\npm\package.json
+5 verbose readDependencies loading dependencies from C:\Users\Jerry\AppData\Roaming\npm\package.json
+6 silly cache add args [ 'protractor@2', null ]
+7 verbose cache add spec protractor@2
+8 silly cache add parsed spec { raw: 'protractor@2',
+8 silly cache add   scope: null,
+8 silly cache add   name: 'protractor',
+8 silly cache add   rawSpec: '2',
+8 silly cache add   spec: '>=2.0.0 <3.0.0',
+8 silly cache add   type: 'range' }
+9 silly addNamed protractor@>=2.0.0 <3.0.0
+10 verbose addNamed ">=2.0.0 <3.0.0" is a valid semver range for protractor
+11 silly addNameRange { name: 'protractor', range: '>=2.0.0 <3.0.0', hasData: false }
+12 silly mapToRegistry name protractor
+13 silly mapToRegistry using default registry
+14 silly mapToRegistry registry https://registry.npmjs.org/
+15 silly mapToRegistry uri https://registry.npmjs.org/protractor
+16 verbose addNameRange registry:https://registry.npmjs.org/protractor not in flight; fetching
+17 verbose request uri https://registry.npmjs.org/protractor
+18 verbose request no auth needed
+19 info attempt registry request try #1 at 3:44:23 PM
+20 verbose request id dd60f55a0e7e87c6
+21 verbose etag "DT7SXMTALQVBFZYVZKLHEPHK5"
+22 http request GET https://registry.npmjs.org/protractor
+23 http 304 https://registry.npmjs.org/protractor
+24 silly get cb [ 304,
+24 silly get   { date: 'Fri, 15 Jan 2016 20:44:23 GMT',
+24 silly get     via: '1.1 varnish',
+24 silly get     'cache-control': 'max-age=300',
+24 silly get     etag: '"DT7SXMTALQVBFZYVZKLHEPHK5"',
+24 silly get     age: '209',
+24 silly get     connection: 'keep-alive',
+24 silly get     'x-served-by': 'cache-atl6228-ATL',
+24 silly get     'x-cache': 'HIT',
+24 silly get     'x-cache-hits': '1',
+24 silly get     'x-timer': 'S1452890663.540318,VS0,VE0',
+24 silly get     vary: 'Accept' } ]
+25 verbose etag https://registry.npmjs.org/protractor from cache
+26 verbose get saving protractor to C:\Users\Jerry\AppData\Roaming\npm-cache\registry.npmjs.org\protractor\.cache.json
+27 silly addNameRange number 2 { name: 'protractor', range: '>=2.0.0 <3.0.0', hasData: true }
+28 silly addNameRange versions [ 'protractor',
+28 silly addNameRange   [ '0.1.0',
+28 silly addNameRange     '0.1.1',
+28 silly addNameRange     '0.1.2',
+28 silly addNameRange     '0.1.3',
+28 silly addNameRange     '0.2.0',
+28 silly addNameRange     '0.2.1',
+28 silly addNameRange     '0.3.0',
+28 silly addNameRange     '0.4.0',
+28 silly addNameRange     '0.4.1',
+28 silly addNameRange     '0.5.0',
+28 silly addNameRange     '0.6.1',
+28 silly addNameRange     '0.7.0',
+28 silly addNameRange     '0.8.0',
+28 silly addNameRange     '0.9.0',
+28 silly addNameRange     '0.10.0',
+28 silly addNameRange     '0.11.0',
+28 silly addNameRange     '0.12.0',
+28 silly addNameRange     '0.12.1',
+28 silly addNameRange     '0.13.0',
+28 silly addNameRange     '0.14.0',
+28 silly addNameRange     '0.15.0',
+28 silly addNameRange     '0.16.0',
+28 silly addNameRange     '0.16.1',
+28 silly addNameRange     '0.17.0',
+28 silly addNameRange     '0.18.0',
+28 silly addNameRange     '0.18.1',
+28 silly addNameRange     '0.19.0',
+28 silly addNameRange     '0.20.0',
+28 silly addNameRange     '0.20.1',
+28 silly addNameRange     '0.21.0',
+28 silly addNameRange     '0.22.0',
+28 silly addNameRange     '0.23.0',
+28 silly addNameRange     '0.23.1',
+28 silly addNameRange     '0.24.0',
+28 silly addNameRange     '0.24.1',
+28 silly addNameRange     '0.24.2',
+28 silly addNameRange     '1.0.0-rc1',
+28 silly addNameRange     '1.0.0-rc2',
+28 silly addNameRange     '1.0.0-rc3',
+28 silly addNameRange     '1.0.0-rc4',
+28 silly addNameRange     '1.0.0-rc5',
+28 silly addNameRange     '1.0.0-rc6',
+28 silly addNameRange     '1.0.0',
+28 silly addNameRange     '1.1.0',
+28 silly addNameRange     '1.1.1',
+28 silly addNameRange     '1.2.0-beta1',
+28 silly addNameRange     '1.2.0',
+28 silly addNameRange     '1.3.0',
+28 silly addNameRange     '1.3.1',
+28 silly addNameRange     '1.4.0',
+28 silly addNameRange     '1.5.0',
+28 silly addNameRange     '1.6.0',
+28 silly addNameRange     '1.6.1',
+28 silly addNameRange     '1.7.0',
+28 silly addNameRange     '1.8.0',
+28 silly addNameRange     '2.0.0',
+28 silly addNameRange     '2.1.0',
+28 silly addNameRange     '2.2.0',
+28 silly addNameRange     '2.3.0',
+28 silly addNameRange     '2.4.0',
+28 silly addNameRange     '2.5.0',
+28 silly addNameRange     '2.5.1',
+28 silly addNameRange     '3.0.0' ] ]
+29 silly addNamed protractor@2.5.1
+30 verbose addNamed "2.5.1" is a plain semver version for protractor
+31 silly mapToRegistry name protractor
+32 silly mapToRegistry using default registry
+33 silly mapToRegistry registry https://registry.npmjs.org/
+34 silly mapToRegistry uri https://registry.npmjs.org/protractor
+35 verbose addRemoteTarball https://registry.npmjs.org/protractor/-/protractor-2.5.1.tgz not in flight; adding
+36 verbose addRemoteTarball [ 'https://registry.npmjs.org/protractor/-/protractor-2.5.1.tgz',
+36 verbose addRemoteTarball   '03d6c93cd7c268f4250177d55a2fec8a198372cd' ]
+37 info retry fetch attempt 1 at 3:44:24 PM
+38 info attempt registry request try #1 at 3:44:24 PM
+39 http fetch GET https://registry.npmjs.org/protractor/-/protractor-2.5.1.tgz
+40 http fetch 200 https://registry.npmjs.org/protractor/-/protractor-2.5.1.tgz
+41 silly fetchAndShaCheck shasum 03d6c93cd7c268f4250177d55a2fec8a198372cd
+42 verbose addTmpTarball C:\Users\Jerry\AppData\Local\Temp\npm-16016-59113c58\registry.npmjs.org\protractor\-\protractor-2.5.1.tgz not in flight; adding
+43 verbose addTmpTarball already have metadata; skipping unpack for protractor@2.5.1
+44 silly cache afterAdd protractor@2.5.1
+45 verbose afterAdd C:\Users\Jerry\AppData\Roaming\npm-cache\protractor\2.5.1\package\package.json not in flight; writing
+46 verbose afterAdd C:\Users\Jerry\AppData\Roaming\npm-cache\protractor\2.5.1\package\package.json written
+47 silly install resolved [ { name: 'protractor',
+47 silly install resolved     description: 'Webdriver E2E test wrapper for Angular.',
+47 silly install resolved     homepage: 'https://github.com/angular/protractor',
+47 silly install resolved     keywords:
+47 silly install resolved      [ 'angular',
+47 silly install resolved        'test',
+47 silly install resolved        'testing',
+47 silly install resolved        'webdriver',
+47 silly install resolved        'webdriverjs',
+47 silly install resolved        'selenium' ],
+47 silly install resolved     author: { name: 'Julie Ralph', email: 'ju.ralph@gmail.com' },
+47 silly install resolved     dependencies:
+47 silly install resolved      { request: '~2.57.0',
+47 silly install resolved        'selenium-webdriver': '2.47.0',
+47 silly install resolved        minijasminenode: '1.1.1',
+47 silly install resolved        jasminewd: '1.1.0',
+47 silly install resolved        jasminewd2: '0.0.6',
+47 silly install resolved        jasmine: '2.3.2',
+47 silly install resolved        saucelabs: '~1.0.1',
+47 silly install resolved        glob: '~3.2',
+47 silly install resolved        'adm-zip': '0.4.4',
+47 silly install resolved        optimist: '~0.6.0',
+47 silly install resolved        q: '1.0.0',
+47 silly install resolved        lodash: '~2.4.1',
+47 silly install resolved        'source-map-support': '~0.2.6',
+47 silly install resolved        'html-entities': '~1.1.1',
+47 silly install resolved        'accessibility-developer-tools': '~2.6.0' },
+47 silly install resolved     devDependencies:
+47 silly install resolved      { 'expect.js': '~0.2.0',
+47 silly install resolved        chai: '~3.3.0',
+47 silly install resolved        'chai-as-promised': '~5.1.0',
+47 silly install resolved        jshint: '2.5.0',
+47 silly install resolved        mocha: '2.3.3',
+47 silly install resolved        cucumber: '~0.6.0',
+47 silly install resolved        express: '~3.3.4',
+47 silly install resolved        rimraf: '~2.2.6' },
+47 silly install resolved     repository: { type: 'git', url: 'git://github.com/angular/protractor.git' },
+47 silly install resolved     bin:
+47 silly install resolved      { protractor: 'bin/protractor',
+47 silly install resolved        'webdriver-manager': 'bin/webdriver-manager' },
+47 silly install resolved     main: 'lib/protractor.js',
+47 silly install resolved     scripts:
+47 silly install resolved      { pretest: 'jshint lib spec scripts',
+47 silly install resolved        test: 'node scripts/test.js',
+47 silly install resolved        start: 'node testapp/scripts/web-server.js' },
+47 silly install resolved     license: 'MIT',
+47 silly install resolved     version: '2.5.1',
+47 silly install resolved     gitHead: '645133d557f1059d9e885f2566fc4c29ce7c19cc',
+47 silly install resolved     bugs: { url: 'https://github.com/angular/protractor/issues' },
+47 silly install resolved     _id: 'protractor@2.5.1',
+47 silly install resolved     _shasum: '03d6c93cd7c268f4250177d55a2fec8a198372cd',
+47 silly install resolved     _from: 'protractor@>=2.0.0 <3.0.0',
+47 silly install resolved     _npmVersion: '2.11.3',
+47 silly install resolved     _nodeVersion: '0.12.7',
+47 silly install resolved     _npmUser: { name: 'angularcore', email: 'angular-core+npm@google.com' },
+47 silly install resolved     dist:
+47 silly install resolved      { shasum: '03d6c93cd7c268f4250177d55a2fec8a198372cd',
+47 silly install resolved        tarball: 'http://registry.npmjs.org/protractor/-/protractor-2.5.1.tgz' },
+47 silly install resolved     maintainers: [ [Object], [Object] ],
+47 silly install resolved     directories: {},
+47 silly install resolved     _resolved: 'https://registry.npmjs.org/protractor/-/protractor-2.5.1.tgz' } ]
+48 info install protractor@2.5.1 into C:\Users\Jerry\AppData\Roaming\npm
+49 info installOne protractor@2.5.1
+50 verbose installOne of protractor to C:\Users\Jerry\AppData\Roaming\npm not in flight; installing
+51 verbose lock using C:\Users\Jerry\AppData\Roaming\npm-cache\_locks\protractor-09705033a64463f4.lock for C:\Users\Jerry\AppData\Roaming\npm\node_modules\protractor
+52 silly install write writing protractor 2.5.1 to C:\Users\Jerry\AppData\Roaming\npm\node_modules\protractor
+53 verbose unbuild node_modules\protractor
+54 info preuninstall protractor@3.0.0
+55 info uninstall protractor@3.0.0
+56 verbose unbuild rmStuff protractor@3.0.0 from C:\Users\Jerry\AppData\Roaming\npm\node_modules
+57 silly gentlyRm C:\Users\Jerry\AppData\Roaming\npm\protractor.cmd is being gently removed
+58 silly gentlyRm verifying C:\Users\Jerry\AppData\Roaming\npm is an npm working directory
+59 silly gentlyRm C:\Users\Jerry\AppData\Roaming\npm\webdriver-manager.cmd is being gently removed
+60 silly gentlyRm verifying C:\Users\Jerry\AppData\Roaming\npm is an npm working directory
+61 silly gentlyRm containing path C:\Users\Jerry\AppData\Roaming\npm is under npm's control, in C:\Users\Jerry\AppData\Roaming\npm
+62 silly gentlyRm deletion target C:\Users\Jerry\AppData\Roaming\npm\protractor.cmd is under C:\Users\Jerry\AppData\Roaming\npm
+63 verbose gentlyRm vacuuming from C:\Users\Jerry\AppData\Roaming\npm\protractor.cmd up to C:\Users\Jerry\AppData\Roaming\npm
+64 silly gentlyRm containing path C:\Users\Jerry\AppData\Roaming\npm is under npm's control, in C:\Users\Jerry\AppData\Roaming\npm
+65 silly gentlyRm deletion target C:\Users\Jerry\AppData\Roaming\npm\webdriver-manager.cmd is under C:\Users\Jerry\AppData\Roaming\npm
+66 verbose gentlyRm vacuuming from C:\Users\Jerry\AppData\Roaming\npm\webdriver-manager.cmd up to C:\Users\Jerry\AppData\Roaming\npm
+67 silly vacuum-fs removing C:\Users\Jerry\AppData\Roaming\npm\protractor.cmd
+68 silly vacuum-fs removing C:\Users\Jerry\AppData\Roaming\npm\webdriver-manager.cmd
+69 silly vacuum-fs finished vacuuming up to C:\Users\Jerry\AppData\Roaming\npm
+70 silly gentlyRm C:\Users\Jerry\AppData\Roaming\npm\protractor is being gently removed
+71 silly gentlyRm verifying C:\Users\Jerry\AppData\Roaming\npm is an npm working directory
+72 silly gentlyRm containing path C:\Users\Jerry\AppData\Roaming\npm is under npm's control, in C:\Users\Jerry\AppData\Roaming\npm
+73 silly gentlyRm deletion target C:\Users\Jerry\AppData\Roaming\npm\protractor is under C:\Users\Jerry\AppData\Roaming\npm
+74 verbose gentlyRm vacuuming from C:\Users\Jerry\AppData\Roaming\npm\protractor up to C:\Users\Jerry\AppData\Roaming\npm
+75 silly vacuum-fs finished vacuuming up to C:\Users\Jerry\AppData\Roaming\npm
+76 silly gentlyRm C:\Users\Jerry\AppData\Roaming\npm\webdriver-manager is being gently removed
+77 silly gentlyRm verifying C:\Users\Jerry\AppData\Roaming\npm is an npm working directory
+78 silly gentlyRm containing path C:\Users\Jerry\AppData\Roaming\npm is under npm's control, in C:\Users\Jerry\AppData\Roaming\npm
+79 silly gentlyRm deletion target C:\Users\Jerry\AppData\Roaming\npm\webdriver-manager is under C:\Users\Jerry\AppData\Roaming\npm
+80 verbose gentlyRm vacuuming from C:\Users\Jerry\AppData\Roaming\npm\webdriver-manager up to C:\Users\Jerry\AppData\Roaming\npm
+81 silly vacuum-fs removing C:\Users\Jerry\AppData\Roaming\npm\protractor
+82 silly vacuum-fs removing C:\Users\Jerry\AppData\Roaming\npm\webdriver-manager
+83 silly vacuum-fs finished vacuuming up to C:\Users\Jerry\AppData\Roaming\npm
+84 silly vacuum-fs finished vacuuming up to C:\Users\Jerry\AppData\Roaming\npm
+85 info postuninstall protractor@3.0.0
+86 silly gentlyRm C:\Users\Jerry\AppData\Roaming\npm\node_modules\protractor is being purged from base C:\Users\Jerry\AppData\Roaming\npm
+87 verbose gentlyRm don't care about contents; nuking C:\Users\Jerry\AppData\Roaming\npm\node_modules\protractor
+88 silly vacuum-fs purging C:\Users\Jerry\AppData\Roaming\npm\node_modules\protractor
+89 silly vacuum-fs quitting because other entries in C:\Users\Jerry\AppData\Roaming\npm\node_modules
+90 verbose tar unpack C:\Users\Jerry\AppData\Roaming\npm-cache\protractor\2.5.1\package.tgz
+91 verbose tar unpacking to C:\Users\Jerry\AppData\Roaming\npm\node_modules\protractor
+92 silly gentlyRm C:\Users\Jerry\AppData\Roaming\npm\node_modules\protractor is being purged
+93 verbose gentlyRm don't care about contents; nuking C:\Users\Jerry\AppData\Roaming\npm\node_modules\protractor
+94 silly vacuum-fs Error: EPERM, lstat 'C:\Users\Jerry\AppData\Roaming\npm\node_modules\protractor'
+94 silly vacuum-fs     at Error (native)
+95 verbose unlock done using C:\Users\Jerry\AppData\Roaming\npm-cache\_locks\protractor-09705033a64463f4.lock for C:\Users\Jerry\AppData\Roaming\npm\node_modules\protractor
+96 verbose stack Error: EPERM, lstat 'C:\Users\Jerry\AppData\Roaming\npm\node_modules\protractor'
+96 verbose stack     at Error (native)
+97 verbose cwd c:\Users\Jerry\projects\tutorials\coursera\angular\confusion\test
+98 error Windows_NT 6.3.9600
+99 error argv "c:\\Program Files (x86)\\nodejs\\node.exe" "c:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "-g" "protractor@2"
+100 error node v0.12.7
+101 error npm  v2.11.3
+102 error path C:\Users\Jerry\AppData\Roaming\npm\node_modules\protractor
+103 error code EPERM
+104 error errno -4048
+105 error Error: EPERM, lstat 'C:\Users\Jerry\AppData\Roaming\npm\node_modules\protractor'
+105 error     at Error (native)
+105 error  { [Error: EPERM, lstat 'C:\Users\Jerry\AppData\Roaming\npm\node_modules\protractor']
+105 error   errno: -4048,
+105 error   code: 'EPERM',
+105 error   path: 'C:\\Users\\Jerry\\AppData\\Roaming\\npm\\node_modules\\protractor' }
+106 error Please try running this command again as root/Administrator.
+107 verbose exit [ -4048, true ]
+108 verbose unbuild node_modules\protractor
+109 silly gentlyRm C:\Users\Jerry\AppData\Roaming\npm\node_modules\protractor is being purged from base C:\Users\Jerry\AppData\Roaming\npm
+110 verbose gentlyRm don't care about contents; nuking C:\Users\Jerry\AppData\Roaming\npm\node_modules\protractor
+111 silly vacuum-fs Error: EPERM, lstat 'C:\Users\Jerry\AppData\Roaming\npm\node_modules\protractor'
+111 silly vacuum-fs     at Error (native)
+112 error error rolling back Error: EPERM, lstat 'C:\Users\Jerry\AppData\Roaming\npm\node_modules\protractor'
+112 error error rolling back     at Error (native)
+112 error error rolling back  { [Error: EPERM, lstat 'C:\Users\Jerry\AppData\Roaming\npm\node_modules\protractor']
+112 error error rolling back   errno: -4048,
+112 error error rolling back   code: 'EPERM',
+112 error error rolling back   path: 'C:\\Users\\Jerry\\AppData\\Roaming\\npm\\node_modules\\protractor' }
